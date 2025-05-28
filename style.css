@@ -14,11 +14,14 @@ header{
     background: linear-gradient(black 40%, #d9d9d9);
     text-align: center;
     padding: 100px;
+    margin: 0px;
 }
 
 a{
+    position: relative;
     text-decoration: none;
-    color: #d9d9d9;    
+    color: #d9d9d9;
+    bottom: 85px;
 }
 
 .letra {
@@ -56,4 +59,8 @@ a{
     bottom: 320px;
   }
 
-  
+  .imagem{
+    position: relative;
+    bottom: 700px;
+    right: 400px;
+  }
