@@ -10,6 +10,11 @@ body{
     overflow-x: hidden;
 }
 
+#scroll {
+    max-height: 900px !important;
+    overflow: hidden;
+}
+
 .link{
     display: flex;
     justify-content: space-between;
