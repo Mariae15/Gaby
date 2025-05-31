@@ -10,8 +10,8 @@ body{
     overflow-x: hidden;
 }
 
-#scroll {
-    max-height: 900px !important;
+#scroll{
+    max-height: 900px;
     overflow: hidden;
 }
 
