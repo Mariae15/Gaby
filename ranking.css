@@ -1,8 +1,10 @@
 body{
     background-color: #d9d9d9;
+    overflow-x: hidden;
 }
 
 h2{
+    position: relative;
     display: flex;
     justify-content: center;
     font-family: "Outfit", sans-serif;
@@ -10,6 +12,16 @@ h2{
     font-weight: 700;
     font-size: 30px;
     font-style: normal;
+}
+
+.doiwanna{
+    bottom: 800px;
+}
+
+.fivefive{
+    position: relative;
+    bottom: 2460px;
+    right: 100px;
 }
 
 p{
@@ -23,41 +35,177 @@ p{
 }
 
 .artic1{
-    bottom: 20px;
+    bottom: 800px;
 }
 
 .artic-ano{
-    bottom: 31px;
+    bottom: 800px;
 }
 
 img{
    border-radius: 20px;
    width: 160px;
+   position: relative;
 }
 
 .monkeys1{
-    position: relative;
-    bottom: 140px;
+    bottom: 950px;
     left: 350px;
 }
 
 .monkeys2{
-    position: relative;
-    bottom: 250px;
+    bottom: 2600px;
     left: 350px;
 }
 
-.audio{
-    width: 300px;
-    position: relative;
-    bottom: 60px;
-    background-color: #d9d9d9;
-}
-
 .artic2{
-    bottom: 100px;
+    bottom: 2470px;
 }
 
 .artic-ano2{
-    bottom: 21px;
+    bottom: 2470px;
+}
+
+.eilish{
+    bottom: 4250px;
+    left: 350px;
+}
+
+.lost{
+    bottom: 4110px;
+    right: 50px;
+}
+
+.billie{
+    bottom: 4130px;
+}
+
+.billie-ano{
+    bottom: 4130px;
+}
+
+.emi{
+    bottom: 5900px;
+    left: 350px;
+}
+
+.real{
+    bottom: 5765px;
+    left: 10px;
+}
+
+.eminem{
+    bottom: 5770px;
+}
+
+.eminem-ano{
+    bottom: 5770px;
+}
+
+.grey{
+    bottom: 7570px;
+    left: 350px;
+}
+
+.always{
+    bottom: 7430px;
+    right: 15px;
+}
+
+.chris{
+    bottom: 7450px;
+}
+
+.chris-ano{
+    bottom: 7450px;
+}
+
+.audio{
+    display: flex;
+    width: 1430px;
+    z-index: -3;
+    position: relative;
+    bottom: 1320px;
+    right: 285px;
+}
+
+.one{
+    position: relative;
+    z-index: -4;
+    width: 1500px;
+    right: 600px;
+    bottom: 270px;
+}
+
+.two{
+    position: relative;
+    z-index: -4;
+    width: 1500px;
+    right: 600px;
+    bottom: 1900px;
+}
+
+.three{
+    position: relative;
+    z-index: -4;
+    width: 1500px;
+    right: 600px;
+    bottom: 3570px;
+}
+
+.four{
+    position: relative;
+    z-index: -4;
+    width: 1500px;
+    right: 600px;
+    bottom: 5220px;
+}
+
+.five{
+    position: relative;
+    z-index: -4;
+    width: 1500px;
+    right: 600px;
+    bottom: 6890px;
+}
+
+.audio2{
+    display: flex;
+    width: 1430px;
+    z-index: -3;
+    position: relative;
+    bottom: 2970px;
+    right: 285px;   
+}
+
+.audio3{
+    display: flex;
+    width: 1430px;
+    z-index: -3;
+    position: relative;
+    bottom: 4630px;
+    right: 285px;   
+}
+
+.audio4{
+    display: flex;
+    width: 1430px;
+    z-index: -3;
+    position: relative;
+    bottom: 6270px;
+    right: 285px;   
+}
+
+.audio5{
+    display: flex;
+    width: 1430px;
+    z-index: -3;
+    position: relative;
+    bottom: 7950px;
+    right: 285px;   
+}
+
+#scroll {
+    max-height: 1700px !important;
+    overflow: hidden;
 }

@@ -1,0 +1,128 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    background-color: #d9d9d9;
+    justify-content: center;    
+    overflow-x: hidden;
+}
+
+#scroll {
+    max-height: 900px !important;
+    overflow: hidden;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+header{
+    background: linear-gradient(black 40%, #d9d9d9);
+    text-align: center;
+    padding: 100px;
+    margin: 0px;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: #a6a6a6;
+    bottom: 85px;
+    z-index: 5;
+}
+
+.letra, .letra2, .letra3{
+  position: relative;
+  font-family: "Goblin One", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+
+.letra {
+    color: #aba8a8;
+    font-size: 120px;
+    top: 40px;
+    left: 15px;
+    
+  }
+
+  .letra2 {
+    color: #800b0b;
+    font-size: 120px;
+    bottom: 115px;
+    left: 10px;
+  }
+
+  .letra3{
+    position: relative;
+    font-size: 120px;
+    bottom: 275px;
+  }
+
+  .letra4{
+    position: relative;
+    color: #6d6e70;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    bottom: 290px;
+    left: 700px;
+
+  }
+
+  .imagem, .imagem1, .imagem2, .imagem3, .imagem4, .imagem5, .imagem6{
+    position: relative;
+  }
+
+  .imagem{
+    width: 2200px;
+    bottom: 700px;
+    right: 650px;
+  }
+
+  .imagem1{
+     width: 2200px;
+    bottom: 1870px;
+    right: 490px;
+    z-index: 2;
+  }
+
+  .imagem2{
+     width: 2200px;
+    bottom: 3200px;
+    right: 300px;
+    z-index: 1;
+  }
+
+  .imagem3{
+    width: 1800px;
+    bottom: 4250px;
+    right: 230px;
+    z-index: -3;
+  }
+
+  .imagem4{
+    width: 1200px;
+    bottom: 5340px;
+    left: 50px;
+  }
+
+  .imagem5{
+     width: 1200px;
+    bottom: 6040px;
+    right: 450px;
+  }
+
+  .imagem6{
+    width: 1200px;
+    bottom: 6680px;
+    left: 450px;
+  }
